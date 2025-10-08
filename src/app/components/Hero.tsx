@@ -2,6 +2,7 @@
 import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { hero } from "../data/hero";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Hero() {
@@ -9,56 +10,43 @@ export default function Hero() {
 
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
-      // Intro stagger
       gsap.from(".hero-line", {
         y: 40,
         opacity: 0,
         duration: 0.8,
-        ease: "power2.out",
         stagger: 0.12,
-      });
-
-      // Scroll reveal cho mọi .reveal trong trang
-      gsap.utils.toArray<HTMLElement>(".reveal").forEach((el) => {
-        gsap.from(el, {
-          y: 40,
-          opacity: 0,
-          duration: 0.8,
-          ease: "power2.out",
-          scrollTrigger: { trigger: el, start: "top 85%" },
-        });
-      });
-
-      // Parallax nền nhẹ
-      gsap.to(".parallax", {
-        yPercent: 20,
-        ease: "none",
-        scrollTrigger: { trigger: root.current, start: "top top", scrub: true },
+        ease: "power2.out",
       });
     }, root);
     return () => ctx.revert();
   }, []);
 
   return (
-    <section ref={root} className="relative overflow-hidden">
-      <div className="parallax pointer-events-none absolute inset-0 bg-gradient-to-b from-primary/30 to-transparent" />
-      <div className="container mx-auto px-6 py-28">
-        <span className="hero-line inline-block rounded-full bg-primary/30 px-3 py-1 text-sm">
-          Full-stack Developer
+    <section
+      ref={root}
+      className="relative overflow-hidden bg-black text-white min-h-[90vh] flex items-center"
+    >
+      <div className="parallax pointer-events-none absolute inset-0 bg-gradient-to-b from-primary/10 to-transparent" />
+
+      <div className="container mx-auto px-6">
+        <span className="hero-line block text-lg md:text-2xl text-white/80">
+          Hi! My name is,
         </span>
-        <h1 className="hero-line mt-4 text-5xl md:text-6xl font-bold text-red-600">
-          Hi, I’m Mason
-        </h1>
-        <p className="hero-line mt-4 max-w-xl text-lg text-slate-600">
-          React / Next.js / NestJS — I build performant, animated web
-          experiences.
-        </p>
-        <a
-          href="#work"
-          className="hero-line mt-8 inline-block rounded-2xl bg-black px-5 py-3 text-white"
+
+        {/* Gradient text */}
+        <h1
+          className="hero-line mt-3 text-[4rem] md:text-[8rem] font-extrabold leading-[1.1]
+             animated-gradient-text whitespace-nowrap"
         >
-          View Work
-        </a>
+          {hero.name} {/* ví dụ: "Mason." */}
+        </h1>
+
+        <p className="hero-line mt-6 text-lg md:text-2xl text-white/90">
+          {hero.description}
+        </p>
+        <p className="hero-line mt-3 text-lg md:text-2xl text-white/90 ">
+          {hero.subDescription}
+        </p>
       </div>
     </section>
   );

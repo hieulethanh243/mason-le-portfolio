@@ -10,6 +10,10 @@ export default {
       borderRadius: {
         xl2: "1rem",
       },
+      fontFamily: {
+        sans: ["Clash Display", "system-ui", "sans-serif"],
+        heading: ["Clash Display", "sans-serif"],
+      },
     },
   },
   plugins: [],

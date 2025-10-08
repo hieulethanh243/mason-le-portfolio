@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
 import Hero from "./components/Hero";
 import Section from "./components/Section";
 import PinPanel from "./components/PinPanel";
