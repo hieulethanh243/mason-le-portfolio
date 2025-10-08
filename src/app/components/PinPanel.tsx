@@ -11,7 +11,6 @@ export default function PinPanel() {
     const ctx = gsap.context(() => {
       const steps = gsap.utils.toArray<HTMLElement>(".pin-step");
 
-      // tạo timeline cho từng step (mượt, không tạo nhiều trigger nhỏ)
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: root.current,
