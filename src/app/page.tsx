@@ -1,11 +1,15 @@
 import Hero from "./components/Hero";
 import Section from "./components/Section";
 import PinPanel from "./components/PinPanel";
+import Header from "./components/Header";
+import About from "./components/About";
 
 export default function Page() {
   return (
     <>
+      <Header />
       <Hero />
+      <About />
       <Section id="work" title="Selected Work">
         <div className="grid gap-6 md:grid-cols-2">
           <article className="rounded-2xl border p-6">

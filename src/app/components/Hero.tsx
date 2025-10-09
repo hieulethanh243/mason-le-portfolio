@@ -2,7 +2,8 @@
 import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { hero } from "../data/hero";
+import { hero, socials } from "../data/hero";
+import Image from "next/image";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Hero() {
@@ -32,21 +33,38 @@ export default function Hero() {
         <span className="hero-line block text-lg md:text-2xl text-white/80">
           Hi! My name is,
         </span>
-
-        {/* Gradient text */}
         <h1
           className="hero-line mt-3 text-[4rem] md:text-[8rem] font-extrabold leading-[1.1]
              animated-gradient-text whitespace-nowrap"
         >
-          {hero.name} {/* ví dụ: "Mason." */}
+          {hero.name}
         </h1>
-
         <p className="hero-line mt-6 text-lg md:text-2xl text-white/90">
           {hero.description}
         </p>
         <p className="hero-line mt-3 text-lg md:text-2xl text-white/90 ">
           {hero.subDescription}
         </p>
+        <div className="hero-line flex gap-10 mt-10">
+          {socials.map(
+            (item) =>
+              item.icon && (
+                <a
+                  key={item.label}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center justify-center hover:opacity-100 opacity-80 transition-all duration-300"
+                >
+                  <img
+                    src={item.icon}
+                    alt={item.label}
+                    className="h-8 w-auto object-contain group-hover:scale-110 transition-transform duration-300"
+                  />
+                </a>
+              )
+          )}
+        </div>
       </div>
     </section>
   );

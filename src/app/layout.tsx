@@ -1,3 +1,4 @@
+import CustomCursor from "./components/CustomCursor";
 import SmoothScroll from "./components/SmoothScroll";
 import "./globals.css";
 
@@ -14,6 +15,7 @@ export default function RootLayout({
     <html lang="vi">
       <body className="bg-white text-slate-900">
         <SmoothScroll />
+        <CustomCursor />
         {children}
       </body>
     </html>
