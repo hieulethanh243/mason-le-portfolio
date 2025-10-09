@@ -39,13 +39,13 @@ export default function About() {
       className="min-h-screen bg-black text-white py-32"
     >
       <SectionTitle title="About Me" />
-      <div className="container mx-auto px-6 md:mt-[200px]">
+      <div className="container mx-auto px-6 mt-[50px] xl:mt-[200px]">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="about-line flex justify-center">
             <img
-              src="/imgs/icons/github_logo_icon_229278.png"
+              src="/imgs/logo.png"
               alt="profile"
-              className="w-56 h-56 object-cover rounded-full shadow-[0_0_40px_#8b5cf6]"
+              className="w-100 h-100 object-cover rounded-full "
             />
           </div>
 
@@ -59,7 +59,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="mt-[200px]">
+      <div className="mt-[50px] xl:mt-[200px]">
         <SectionTitle title="About Me" end />
       </div>
     </section>
