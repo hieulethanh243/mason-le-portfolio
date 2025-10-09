@@ -2,7 +2,7 @@ import { HeroInformation, HeroSocial } from "../types/hero";
 
 export const hero: HeroInformation = {
   name: "Thanh Hieu",
-  description: "Fullstack Web Developer.",
+  description: "Web Developer.",
   subDescription: "React, Next.js & NestJS — where code meets creativity.",
   role: "Web Developer",
 };

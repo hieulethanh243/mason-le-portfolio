@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Mason Le | Portfolio",
-  description: "Full-stack Developer — React / Next.js / NestJS",
+  description: "Web Developer — React / Next.js / NestJS",
 };
 export default function RootLayout({
   children,
