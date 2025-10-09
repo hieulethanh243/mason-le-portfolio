@@ -3,7 +3,6 @@ import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { hero, socials } from "../data/hero";
-import Image from "next/image";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Hero() {
@@ -34,7 +33,7 @@ export default function Hero() {
           Hi! My name is,
         </span>
         <h1
-          className="hero-line mt-3 text-[4rem] md:text-[8rem] font-extrabold leading-[1.1]
+          className="hero-line mt-3 text-[3.5rem] md:text-[8rem] font-extrabold leading-[1.1]
              animated-gradient-text whitespace-nowrap"
         >
           {hero.name}
