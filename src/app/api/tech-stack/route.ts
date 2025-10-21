@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TechStackService } from "@/services/tech_stack.service";
 import { NextResponse } from "next/server";
 

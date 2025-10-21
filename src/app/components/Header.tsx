@@ -1,5 +1,4 @@
 "use client";
-
 import Link from "next/link";
 import { useActiveSection } from "../hooks/useActiveSection";
 import Image from "next/image";
