@@ -33,11 +33,7 @@ export default function About() {
   }, []);
 
   return (
-    <section
-      id="about"
-      ref={sectionRef}
-      className="min-h-screen bg-black text-white py-32"
-    >
+    <section id="about" ref={sectionRef} className=" bg-black text-white pt-32">
       <SectionTitle title="About Me" />
       <div className="container mx-auto px-6 mt-[50px] xl:mt-[200px]">
         <div className="grid md:grid-cols-2 gap-10 items-center">

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useActiveSection } from "../hooks/useActiveSection";
+import Image from "next/image";
 
 const navItems = [
   { label: "ABOUT", href: "#about" },
@@ -24,8 +25,7 @@ export default function Header() {
     const el = document.getElementById(id);
     if (!el) return;
 
-    // scroll smooth bằng JS (mượt và không giật)
-    const yOffset = -80; // chiều cao header
+    const yOffset = -80;
     const y = el.getBoundingClientRect().top + window.scrollY + yOffset;
     window.scrollTo({ top: y, behavior: "smooth" });
   };
@@ -37,7 +37,8 @@ export default function Header() {
           href="/"
           className="font-[ClashDisplay] text-2xl font-semibold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent select-none"
         >
-          Portfolio<span className="text-pink-500">.</span>
+          {/* get image from /src/app/icon.svg */}
+          <Image src="/icon.svg" width={40} height={40} alt="logo" />
         </Link>
 
         <nav className="hidden md:flex gap-10">
