@@ -56,9 +56,9 @@ I mentor beginners and junior developers who want to:
 
 📩 **Hire me or book 1-on-1 mentoring:**
 
-- **Facebook:** [facebook.com/lethanhhieu.dev](https://facebook.com/lethanhhieu.dev)
-- **Zalo:** available upon request
-- **TikTok:** [@tho.code.website](https://tiktok.com/@tho.code.website)
+- **Facebook:** [facebook.com/lethanhhieu.dev](https://www.facebook.com/quickkiemsy)
+- **Zalo:** 0358697656
+- **TikTok:** [@tho.code.website](https://tiktok.com/@th.code.website)
 
 ---
 
