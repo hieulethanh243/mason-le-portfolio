@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👋 Hi, I'm Hiếu (Mason Lê) — Front-End Developer & Mentor
 
-## Getting Started
+Welcome to my GitHub!  
+I'm a passionate **Front-End Developer** specializing in modern web technologies like **React, Next.js, and Tailwind CSS**.  
+I build high-performance, visually stunning, and scalable web applications — and I also **teach 1-on-1 Front-End & JavaScript** for anyone who wants to level up fast and learn the real-world workflow.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 What I Do
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 💼 Freelance Projects
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I help businesses and startups build:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Landing Pages** optimized for conversion
+- **E-commerce websites** with modern UI/UX
+- **Custom Web Apps** (React, Next.js, Node.js)
+- **Performance optimization & SEO setup**
 
-## Learn More
+> From design to deployment — I deliver clean, scalable, and maintainable code.
 
-To learn more about Next.js, take a look at the following resources:
+### 🎓 1-on-1 Mentorship
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I mentor beginners and junior developers who want to:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Learn **HTML → CSS → JavaScript → React.js → Next.js**
+- Build a **real-world project portfolio**
+- Understand **coding best practices, Git, and deployment**
+- Prepare for **Front-End interviews**
 
-## Deploy on Vercel
+> My teaching focuses on **practical projects**, not just theory — you’ll learn by doing real things that you can show on your resume.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧠 Tech Stack
+
+| Category             | Technologies                               |
+| -------------------- | ------------------------------------------ |
+| **Front-End**        | React.js, Next.js, Vite, Tailwind CSS, MUI |
+| **State Management** | Redux Toolkit, Zustand, Context API        |
+| **Back-End (Basic)** | Node.js, Express, NestJS                   |
+| **Tools & Others**   | Git, VSCode, Figma, Postman, Vercel        |
+
+---
+
+## 🧩 Featured Work
+
+- **Modern Portfolio Website** (Next.js + Tailwind)
+- **E-commerce Store** (React + Zustand + Node.js)
+- **Quiz App / Interview Prep Platform**
+- **Micro SaaS UI Dashboards**
+
+---
+
+## 💬 Let’s Connect
+
+📩 **Hire me or book 1-on-1 mentoring:**
+
+- **Facebook:** [facebook.com/lethanhhieu.dev](https://facebook.com/lethanhhieu.dev)
+- **Zalo:** available upon request
+- **TikTok:** [@tho.code.website](https://tiktok.com/@tho.code.website)
+
+---
+
+## ⚡ Motto
+
+> “Code with clarity, design with empathy, and teach with patience.”
+
+---
+
+⭐ If you like my work, feel free to follow or collaborate.  
+Let’s build something awesome together!

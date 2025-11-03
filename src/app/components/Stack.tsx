@@ -60,7 +60,7 @@ export default function TechStack() {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-10 gap-6">
           {error && <p className="text-red-500">Failed to load tech stack.</p>}
           {data &&
-            data.map((item: any, index: number) => (
+            data?.map((item: any, index: number) => (
               <TechCard
                 key={item.id || index}
                 name={item.title}

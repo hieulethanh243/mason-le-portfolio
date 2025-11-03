@@ -27,19 +27,19 @@ export default function Hero() {
       ref={root}
       className="relative overflow-hidden bg-black text-white min-h-[90vh] flex items-center"
     >
-      {/* breakpoint: xl = 1080px */}
       <div className="container mx-auto px-6 grid xl:grid-cols-10 items-center gap-10 mt-[100px] sm:mt-[150px] xl:mt-0">
-        {/* LEFT (6 cols) */}
         <div className="xl:col-span-6 order-2 xl:order-1 text-center xl:text-left">
-          <span className="hero-line block text-lg md:text-2xl text-white/80">
+          <span className=" block text-lg md:text-2xl text-white/80">
             Hi! My name is,
           </span>
+
           <h1
-            className="hero-line mt-3 text-[3rem] md:text-[5rem] xl:text-[7.5rem] font-extrabold leading-[1.1]
-             animated-gradient-text whitespace-nowrap"
+            className="typing-line second mt-3 text-[3rem] md:text-[5rem] xl:text-[7.5rem] font-extrabold leading-[1.1]
+  animated-gradient-text whitespace-nowrap"
           >
             {hero.name}
           </h1>
+
           <p className="hero-line mt-6 text-lg md:text-2xl text-white/90">
             {hero.description}
           </p>
